@@ -58,14 +58,28 @@ Source: [yfinance API](https://finance.yahoo.com/)
 2. LSTM Model (Closing stock price prediction)
 ```
 ## Ensemble Model
-Inputs - Dataset taken from yfinance API. The following technical indicators, obtained from the FINTA library, are used - [RSI, MACD, STOCH, ADL, ATR, MOM, MFI, ROC, OBV, CCI, EMV, VI]
-Output - Predicts whether inbvestor should buy/sell stock on a particular day.
-Ensemble model consists of RF,KNN, and GBM classsifier.
-The Voting classifier (set to soft voting) is used to make the final prediction.
-![Confusion matrix](https://user-images.githubusercontent.com/82075703/118400236-66b1e080-b67e-11eb-9f9a-be4f3a4c3a08.png)
+**Inputs:** Dataset taken from yfinance API. The following technical indicators, obtained from the FINTA library, are used - [RSI, MACD, STOCH, ADL, ATR, MOM, MFI, ROC, OBV, CCI, EMV, VI]
+
+**Output:** Predicts whether investor should buy/sell stock on a particular day.
+
+The ensemble model consists of RF, KNN, and GBM classsifier.
+
+The voting classifier (set to soft voting) is used to make the final prediction.
+
+The following confusion matrix depicts the result of the 40 sample dataset entries taken for testing the accuracy of the model:
+
+![Confusion matrix](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/blob/main/Images/Result1.png)
 
 ## LSTM Model
+**Input:** Dataset taken from yfinance API.
 
+**Output:** Closing stock price prediction.
+
+The Adam optimization algorithm is used along with the mean squared error as the loss function while compiling the model.
+
+An RMSE analysis is done to check for the accuracy of the predicted prices, and the results are plotted graphically along with the actual prices:
+
+![LSTM Model Data](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/blob/main/Images/Result2.png)
 ## Results
 
 ## Publication
