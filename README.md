@@ -19,10 +19,11 @@ Prerequisites:
 2. Python
 ```
 ## Datasets Used
-'''
-1. Historical stock dataset obtained from yfinance API for ensemble model.
 
-Source: https://finance.yahoo.com/
+Historical stock [dataset](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/blob/main/Dataset.zip).
+
+Source: [yfinance API](https://finance.yahoo.com/)
+
 ## Architecture
 ![Architecture flowchart](https://user-images.githubusercontent.com/82075703/118400236-66b1e080-b67e-11eb-9f9a-be4f3a4c3a08.png)
 
