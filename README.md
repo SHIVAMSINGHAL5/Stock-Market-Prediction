@@ -114,16 +114,16 @@ An RMSE analysis is done to check for the accuracy of the predicted prices, and 
 
 ## Project Organization
 ```
-├── README.md                         <- The top-level README for developers using this project.
+├── README.md                         <- A README guide for developers using this project.
 ├── Images
-│   ├── Architecture.jpeg             <- Project Architecture
-│   ├── result1.PNG                    <- Final Input Output Pipeline
-│   └── result2.PNG                   <- Grad-Cam Output
-├── Dataset.zip                       <- Same Dataset Compressed in ZIP file
+│   ├── Architecture flowchart.png    <- Project architecture flowchart.
+│   ├── result1.png                   <- Buy/sell decision prediction (result of the ensemble model).
+│   └── result2.png                   <- Closing stock price prediction (result of the LSTM model).
+├── Dataset.zip                       <- Dataset used for building the model. It is obtained from yfinance.
 │
-├── Full_Implementation.ipynb         <- Jupyter notebook containing full implementation
+├── Project_implementation.ipynb      <- Jupyter notebook containing full implementation.
 │
-├── Source_Code.py                    <- Source Code of project as Python Script
+├── Source_code.py                    <- Source code the of project as a Python script.
 │
-└── Research Paper                    <- Research Paper
+└── Research Paper                    <- Research Paper.
 ```
