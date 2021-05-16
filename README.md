@@ -32,6 +32,11 @@ Install the libraries using the following commands:
 ```
 !pip install yfinance
 !pip install finta
+!pip install keras
+!pip install sklearn
+```
+Run the project using the following command:
+```
 ```
 ## Datasets used
 
