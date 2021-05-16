@@ -86,9 +86,9 @@ The ensemble model consists of RF, KNN, and GBM classsifier.
 The voting classifier (set to soft voting) is used to make the final prediction.
 
 The following confusion matrix depicts the result of the 40 sample dataset entries taken for testing the accuracy of the model:
-<big><pre>
+
 ![Confusion matrix](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/blob/main/Images/Result1.png)
-</big></pre>
+
 ## LSTM Model
 **Input:** Dataset taken from yfinance API.
 
@@ -104,9 +104,9 @@ model.compile(optimizer='adam', loss='mean_squared_error')
 The Adam optimization algorithm is used along with the mean squared error as the loss function while compiling the model.
 
 An RMSE analysis is done to check for the accuracy of the predicted prices, and the results are plotted graphically along with the actual prices:
-<big><pre>
+
 ![LSTM Model Data](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/blob/main/Images/Result2.png)
-</big></pre>
+
 ## Results
 ```
 RF Accuracy = 71.54%
