@@ -20,6 +20,7 @@ This stock market prediction system emphasises on using an ensemble model to mak
 * [LSTM Model](#LSTM-model)
 * [Results](#Results)
 * [Publication](#Publication)
+* [Project Organization](#Project-Organization)
 
 ## Installation
 Prerequisites:
