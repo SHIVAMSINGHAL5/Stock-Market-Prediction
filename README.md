@@ -11,15 +11,15 @@ This stock market prediction system emphasises on using an ensemble model to mak
   An LSTM model predicts the closing prices of the stock using historical datasets. The general stock direction trends can also be extracted from the dataset to predict the future behaviour of the stocks.
 
 ## Index
-* [Index](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/edit/main/README.md/Index)
-* [Installation](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/edit/main/README.md/Installation)
-* [Datasets used](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/edit/main/README.md/Datasets_used)
-* [Architecture](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/edit/main/README.md/Architecture)
-* [Models used for implementation](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/edit/main/README.md/Models_used_for_implememtation)
-* [Ensemble Model](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/edit/main/README.md/Ensemble_model)
-* [LSTM Model](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/edit/main/README.md/LSTM_model)
-* [Results](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/edit/main/README.md/Results)
-* [Publication](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/edit/main/README.md/Publication)
+* [Index](#Index)
+* [Installation](#Installation)
+* [Datasets used](#Datasets_used)
+* [Architecture](#Architecture)
+* [Models used for implementation](#Models_used_for_implememtation)
+* [Ensemble Model](#Ensemble_model)
+* [LSTM Model](#LSTM_model)
+* [Results](#Results)
+* [Publication](#Publication)
 
 ## Installation
 Prerequisites:
