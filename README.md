@@ -1,10 +1,21 @@
-# Stock-Market-Prediction
+# Stock-Market-Prediction Using ML Algorithms
 
-The system proposed in this paper emphasises on using an ensemble model to make accurate predictions. While an individual algorithm-based model might have higher accuracy, however, an ensemble model boosts the overall confidence and reliability of the system. The proposed system has the following characteristics:
-1. Buy/sell decision for stocks 
-A combination of Random Forest classifier, K-Nearest Neighbours classifier, and Gradient Boosting classifier forms an ensemble model [3] which predicts whether an investor should buy/sell stocks on a particular day.
-2. Closing price prediction
-An LSTM model [12] predicts the closing prices of the stock using historical datasets. The general stock direction trends can also be extracted from the dataset to predict the future behaviour of the stocks.
+The stock market prediction system proposed in this paper emphasises on using an ensemble model to make accurate predictions. While an individual algorithm-based model might have higher accuracy, however, an ensemble model boosts the overall confidence and reliability of the system. The proposed system has the following characteristics:
+
+**1. Buy/sell decision for stocks** 
+   
+   A combination of Random Forest classifier, K-Nearest Neighbours classifier, and Gradient Boosting classifier forms an ensemble model which predicts whether an investor should buy/sell stocks on a particular day.
+
+**2. Closing price prediction**
+   
+  An LSTM model predicts the closing prices of the stock using historical datasets. The general stock direction trends can also be extracted from the dataset to predict the future behaviour of the stocks.
+
+## Index
+
+## Installation
+
+## Architecture
+
 
 Data Processing Module :
 
