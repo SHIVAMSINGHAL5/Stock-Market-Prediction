@@ -1,6 +1,6 @@
 # Stock-Market-Prediction Using ML Algorithms
 
-The stock market prediction system proposed in this paper emphasises on using an ensemble model to make accurate predictions. While an individual algorithm-based model might have higher accuracy, however, an ensemble model boosts the overall confidence and reliability of the system. The proposed system has the following characteristics:
+This stock market prediction system emphasises on using an ensemble model to make accurate stock price and decision predictions. While an individual algorithm-based model might have higher accuracy, however, an ensemble model boosts the overall confidence and reliability of the system. The system has the following characteristics:
 
 **1. Buy/sell decision for stocks** 
    
@@ -21,6 +21,15 @@ Prerequisites:
 ## Architecture
 ![Architecture flowchart](https://user-images.githubusercontent.com/82075703/118400236-66b1e080-b67e-11eb-9f9a-be4f3a4c3a08.png)
 
+## Models used for implementation
+```
+1. Ensemble Model (Buy/sell decision prediction)
+     a. Random Forest Classifier (RF)
+     b. K-Nearest Neighbors Classifier (KNN)
+     c. Gradient Boosting (GBM)
+     d. Voting Classifier: soft voting
+2. LSTM Model (Closing stock price prediction)
+```
 ## Publication
 
 ### Title - [Stock Market Prediction Using ML Algorithms](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/blob/main/Research_Paper.pdf)
