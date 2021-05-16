@@ -58,10 +58,27 @@ Source: [yfinance API](https://finance.yahoo.com/)
 2. LSTM Model (Closing stock price prediction)
 ```
 ## Ensemble Model
-**Inputs:** Dataset taken from yfinance API. The following technical indicators, obtained from the FINTA library, are used - [RSI, MACD, STOCH, ADL, ATR, MOM, MFI, ROC, OBV, CCI, EMV, VI]
+**Inputs:** Dataset taken from yfinance API. The following technical indicators, obtained from the FINTA library, are used - [RSI, MACD, STOCH, ADL, ATR, MOM, MFI, ROC, OBV, CCI, EMV, VI].
 
 **Output:** Predicts whether investor should buy/sell stock on a particular day.
+```
+count = 0
+total = 0
+num_train = 10
+len_train = 40
+rf_RESULTS = []
+knn_RESULTS = []
+gb_RESULTS = []
+ensemble_RESULTS = []
 
+i = 0
+
+rf = RandomForestClassifier()
+knn = KNeighborsClassifier()
+gb= GradientBoostingClassifier()
+estimators=[('knn', knn), ('rf', rf) , ('gb',gb) ]
+ensemble = VotingClassifier(estimators, voting='soft')
+```
 The ensemble model consists of RF, KNN, and GBM classsifier.
 
 The voting classifier (set to soft voting) is used to make the final prediction.
@@ -74,7 +91,14 @@ The following confusion matrix depicts the result of the 40 sample dataset entri
 **Input:** Dataset taken from yfinance API.
 
 **Output:** Closing stock price prediction.
-
+```
+model = Sequential()
+model.add(LSTM(50, return_sequences=True, input_shape = (x_train.shape[1], 1)))
+model.add(LSTM(50, return_sequences=False))
+model.add(Dense(25))
+model.add(Dense(1))
+model.compile(optimizer='adam', loss='mean_squared_error')
+```
 The Adam optimization algorithm is used along with the mean squared error as the loss function while compiling the model.
 
 An RMSE analysis is done to check for the accuracy of the predicted prices, and the results are plotted graphically along with the actual prices:
