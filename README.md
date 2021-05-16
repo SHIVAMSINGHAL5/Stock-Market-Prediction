@@ -105,6 +105,15 @@ An RMSE analysis is done to check for the accuracy of the predicted prices, and 
 
 ![LSTM Model Data](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/blob/main/Images/Result2.png)
 ## Results
+```
+RF Accuracy = 71.54%
+KNN Accuracy = 67.33%
+GBM Accuracy = 70.26%
+ENSEMBLE Accuracy = 71.59%
+Accuracy of the sample dataset = 95.00%
+
+RMSE value for LSTM model's predictions = 4.12
+```
 
 ## Publication
 
