@@ -23,7 +23,7 @@ Prerequisites:
 
 ## Publication
 
-## Title 
+## Title - ![Stock Market Prediction Using ML Algorithms]()
 
 Data Processing Module :
 
