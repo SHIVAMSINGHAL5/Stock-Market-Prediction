@@ -37,6 +37,7 @@ Install the libraries using the following commands:
 ```
 Run the project using the following command:
 ```
+python Source_code.py
 ```
 ## Datasets used
 <big><pre>
