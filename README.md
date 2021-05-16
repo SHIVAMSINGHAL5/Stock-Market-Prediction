@@ -15,7 +15,7 @@ This stock market prediction system emphasises on using an ensemble model to mak
 * [Installation](#Installation)
 * [Datasets used](#Datasets-used)
 * [Architecture](#Architecture)
-* [Models used for implementation](#Models-used-for-implememtation)
+* [Models used for implementation](#Models-used-for-implementation)
 * [Ensemble Model](#Ensemble-model)
 * [LSTM Model](#LSTM-model)
 * [Results](#Results)
