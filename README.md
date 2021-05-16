@@ -23,7 +23,7 @@ Prerequisites:
 
 ## Publication
 
-## Title - ![Stock Market Prediction Using ML Algorithms]()
+## Title - ![Stock Market Prediction Using ML Algorithms](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/blob/main/Research_Paper.pdf)
 
 Data Processing Module :
 
