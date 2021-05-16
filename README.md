@@ -1,6 +1,6 @@
 # Stock-Market-Prediction Using ML Algorithms
 
-This stock market prediction system emphasises on using an ensemble model to make accurate stock price and decision predictions. While an individual algorithm-based model might have higher accuracy, however, an ensemble model boosts the overall confidence and reliability of the system. The system has the following characteristics:
+This stock market prediction system emphasises on using an ensemble model to make accurate stock price predictions. While an individual algorithm-based model might have higher accuracy, however, an ensemble model boosts the overall confidence and reliability of the system. The system has the following characteristics:
 
 **1. Buy/sell decision for stocks** 
    
