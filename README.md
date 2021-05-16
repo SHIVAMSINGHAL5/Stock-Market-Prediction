@@ -58,50 +58,21 @@ Source: [yfinance API](https://finance.yahoo.com/)
 
 **Abstract -** The stock market has been a topic of great deliberation due to its diverse and convoluted nature. Today’s financial investors are plagued by sudden and notable fluctuations in the market. They cannot easily comprehend as to which stocks they should buy or sell in order to get profitable outcomes. However, with rapid advancements in machine learning, stock market prediction has become plausible. This paper proposes a stock price prediction system that utilizes an ensemble model coupled with a separate LSTM model to make predictions. The ensemble model makes use of Random Forest (RF), K-Nearest Neighbors (KNN), and Gradient Boosting (GB) classifiers to determine whether an investor should buy or sell stocks on a particular day. A separate LSTM model analyzes the historical stock data to predict the closing stock prices in the future. The combined model assists the investors to make the buy/sell call on a particular day with an approximation of the closing prices for better and safer investments.
 
-Data Processing Module :
-
-Data Import:
-yfinance API is used to collect the historical stock data.  
-Libraries such as numpy, pandas, and FINTA are used.
-
-Data Collection:
-The stock data is retrieved for the specified number of days for a specified company.
-A list of technical indicators extracted from the FINTA library are used to generate more features.
-The closing prices column of the dataset is plotted.
-
-Data Smoothening and Plotting:
-The plotted dataset has a lot of troughs and spikes which makes it difficult to make predictions or observe the trends.
-The data is exponentially smoothened to make it easier to compute the technical indicators.
-
-Feature Engineering Module:
-The feature engineering module is used to engineer the following features:
-'close‘
-'14 period RSI',
-'14 period STOCH %K',
-'14 period ATR', 
-'14 period MFI', 
-'20 period CCI', 
-'14 period EMV', 
-'ema50', 'ema21', 'ema15', 'ema5', 'normVol'
-
-
- Ensemble Model Building:
- The following algorithms are utilized to form an ensemble model:
-Random Forest (RF)
-K-Nearest Neighbor (KNN)
-Gradient Boosting (GB)
-
- LSTM Model Building:
-
-Following the processing of data, the dataset is plotted for depicting the closing prices of the historical stock data.
-An LSTM model is trained on this historical stock data.
-After building the LSTM model, an RMSE analysis is done to check the deviations between the actual and predicted prices.
-
-
-
- Results Prediction:
-The ensemble model along with the LSTM model predicts the buy/sell call, closing prices, and stock trend.
-A confusion matrix is generated which shows the accuracy of the tested data.
-The RMSE value depicts the deviation between the actual and predicted prices.
-
-
+## Project Organization
+├── README.md                         <- The top-level README for developers using this project.
+├── Resources
+│   ├── AE_output.PNG                 <- Fianl output of Auto-Encoder
+│   ├── Architecture.jpeg             <- Project Architecture
+│   ├── metrics.PNG                   <- Result metric of out final Model
+│   ├── result.PNG                    <- Final Input Output Pipeline
+│   └── gradcam.PNG                   <- Grad-Cam Output
+│
+├── Dataset                           <- Subset of Imagenet containing more than 200 images belonging to 1000 different classes
+│
+├── Dataset.zip                       <- Same Dataset Compressed in ZIP file
+│
+├── Full_Implementation.ipynb         <- Jupyter notebook containing full implementation
+│
+├── Source_Code.py                    <- Source Code of project as Python Script
+│
+└── Research Paper                    <- Research Paper
