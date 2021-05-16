@@ -18,6 +18,11 @@ Prerequisites:
 1. Jupyter Notebook
 2. Python
 ```
+## Datasets Used
+'''
+1. Historical stock dataset obtained from yfinance API for ensemble model.
+
+Source: https://finance.yahoo.com/
 ## Architecture
 ![Architecture flowchart](https://user-images.githubusercontent.com/82075703/118400236-66b1e080-b67e-11eb-9f9a-be4f3a4c3a08.png)
 
@@ -28,6 +33,7 @@ Prerequisites:
      b. K-Nearest Neighbors Classifier (KNN)
      c. Gradient Boosting (GBM)
      d. Voting Classifier: soft voting
+     
 2. LSTM Model (Closing stock price prediction)
 ```
 ## Publication
