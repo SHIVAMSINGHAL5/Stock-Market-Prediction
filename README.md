@@ -19,7 +19,11 @@ Prerequisites:
 2. Python
 ```
 ## Architecture
+![Architecture flowchart](https://user-images.githubusercontent.com/82075703/118400236-66b1e080-b67e-11eb-9f9a-be4f3a4c3a08.png)
 
+## Publication
+
+## Title 
 
 Data Processing Module :
 
