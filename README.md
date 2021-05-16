@@ -13,7 +13,9 @@ The stock market prediction system proposed in this paper emphasises on using an
 ## Index
 
 ## Installation
-
+Prerequisites:
+<1. Jupyter Notebook>
+<2. Python>
 ## Architecture
 
 
