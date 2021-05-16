@@ -28,6 +28,11 @@ Prerequisites:
 1. Jupyter Notebook
 2. Python
 ```
+Install the libraries using the following commands:
+```
+!pip install yfinance
+!pip install finta
+```
 ## Datasets used
 
 Historical stock [dataset](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/blob/main/Dataset.zip).
