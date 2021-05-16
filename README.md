@@ -13,11 +13,11 @@ This stock market prediction system emphasises on using an ensemble model to mak
 ## Index
 * [Index](#Index)
 * [Installation](#Installation)
-* [Datasets used](#Datasets_used)
+* [Datasets used](#Datasets-used)
 * [Architecture](#Architecture)
-* [Models used for implementation](#Models_used_for_implememtation)
-* [Ensemble Model](#Ensemble_model)
-* [LSTM Model](#LSTM_model)
+* [Models used for implementation](#Models-used-for-implememtation)
+* [Ensemble Model](#Ensemble-model)
+* [LSTM Model](#LSTM-model)
 * [Results](#Results)
 * [Publication](#Publication)
 
@@ -46,6 +46,12 @@ Source: [yfinance API](https://finance.yahoo.com/)
      
 2. LSTM Model (Closing stock price prediction)
 ```
+## Ensemble Model
+
+## LSTM Model
+
+## Results
+
 ## Publication
 
 ### Title - [Stock Market Prediction Using ML Algorithms](https://github.com/SHIVAMSINGHAL5/Stock-Market-Prediction/blob/main/Research_Paper.pdf)
