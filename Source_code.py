@@ -11,7 +11,6 @@ Original file is located at
 
 !pip install yfinance
 !pip install finta
-!pip install catboost
 
 import math
 import datetime
@@ -22,7 +21,6 @@ import yfinance as yf
 from sklearn import svm
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
-from xgboost import XGBClassifier
 from keras.models import Sequential
 from keras.layers import Dense, LSTM
 from sklearn.preprocessing import MinMaxScaler
@@ -30,7 +28,6 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier, VotingClassifier 
 from sklearn.metrics import confusion_matrix, classification_report, mean_squared_error, accuracy_score
-from catboost import CatBoostClassifier
 from sklearn.ensemble import GradientBoostingClassifier
 
 """**Data Collection and Processing**"""
@@ -103,8 +100,6 @@ num_train = 10
 len_train = 40
 rf_RESULTS = []
 knn_RESULTS = []
-#cat_RESULTS = []
-xg_RESULTS = []
 gb_RESULTS = []
 ensemble_RESULTS = []
 
@@ -150,36 +145,9 @@ while True:
     ensemble_accuracy = accuracy_score(y_test.values, ensemble_prediction)
     ensemble_RESULTS.append(ensemble_accuracy)
     count+=1
-    """ try:
-      
-      xg.fit(X_train, y_train)
-      xg_prediction = xg.predict(X_test)
-      gb_accuracy = accuracy_score(y_test.values, xg_prediction)
-      xg_RESULTS.append(xg_accuracy)
-      per_X_train = X_train
-      per_y_train = y_train
-
-      
-
-    except:
-      if 'per_X_train' in locals():
-        gb.fit(per_X_train, per_y_train)
-        ensemble.fit(per_X_train, per_y_train)
-        ensemble_prediction = ensemble.predict(X_test)
-        ensemble_accuracy = accuracy_score(y_test.values, ensemble_prediction)
-        ensemble_RESULTS.append(ensemble_accuracy)   
-        count+=1
-        
-    cat.fit(X_train, y_train)
-    cat_prediction = cat.predict(X_test)
-    cat_accuracy = accuracy_score(y_test.values, cat_prediction)
-    cat_RESULTS.append(cat_accuracy)
-    """       
-
+    
 print('RF Accuracy = ' + str( sum(rf_RESULTS) / len(rf_RESULTS)))
 print('KNN Accuracy = ' + str( sum(knn_RESULTS) / len(knn_RESULTS)))
-#print('XG Accuracy = ' + str( sum(xg_RESULTS) / len(xg_RESULTS)))
-#print('CAT Accuracy = ' + str( sum(cat_RESULTS) / len(cat_RESULTS)))
 print('GB Accuracy = ' + str( sum(gb_RESULTS) / len(gb_RESULTS)))
 print('ENSEMBLE Accuracy = ' + str( sum(ensemble_RESULTS) / len(ensemble_RESULTS)))
 
